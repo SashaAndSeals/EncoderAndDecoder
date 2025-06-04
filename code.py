@@ -1,5 +1,5 @@
 import math
-letters = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ.,?!@#$%^&*()[]{}\|/<>+-=`~:;' "
+letters = r"0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ.,?!@#$%^&*()[]{}\|/<>+-=`~:;' "
 c = math.floor(len(letters)/2)
 def encode(a):
     out = ""
